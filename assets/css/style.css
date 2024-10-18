@@ -31,20 +31,24 @@ nav {
   align-items: center;
 }
 
-li {
+li a {
+  /* width: auto; */
   padding: 10px 12px;
   margin-right: 7px;
   border-radius: 30px;
   transition: 0.4s;
   cursor: pointer;
+  text-decoration: none;
+  color: #325580
+  ;
   /* border: 1px solid green; */
 }
 
-.navbar.right ul li:nth-child(2){
+.navbar.right ul li :nth-child(2){
   margin-right: 30px;
 }
 
-li:hover {
+a:hover {
   background-color: #c4e9fd;
   transition: 0.4s;
 }
