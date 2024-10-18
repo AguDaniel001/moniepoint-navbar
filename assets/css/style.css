@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   color: #2d3136;
   background-color: rgb(16, 16, 42);
+  
 }
 
 nav {
@@ -32,16 +33,19 @@ nav {
 }
 
 li a {
-  /* width: auto; */
   padding: 10px 12px;
   margin-right: 7px;
   border-radius: 30px;
   transition: 0.4s;
   cursor: pointer;
   text-decoration: none;
-  color: #325580
-  ;
+  color: #325580;
   /* border: 1px solid green; */
+}
+
+.navbar ul li {
+  
+  letter-spacing: 0.6px;
 }
 
 .navbar.right ul li :nth-child(2){
