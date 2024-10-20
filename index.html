@@ -91,7 +91,19 @@
             <li class="blog-padding"><a href="#">Blog</a></li>
             <li><a href="#" class="active">Sign in <i class="fa-solid fa-arrow-right"></i></a></li>
 
-            <div class="flag-icon"><img class="image-small right" src="./assets/images/nig.svg" alt="Nigeria"><i class="fa-solid fa-chevron-down"></i></div>
+            <div id="openPopup" class="flag-icon"><img class="image-small right" src="./assets/images/nig.svg" alt="Nigeria"><i class="fa-solid fa-chevron-down"></i></div>
+
+            <div id="popup" class="popup">
+              <div class="popup-content">
+
+                <span id="closePopup" class="close"><i class="fa-solid fa-xmark"></i></span>
+                <h4>Select Region/Country</h4>
+                  <button class="content-btn region"><img class="image-small right" src="assets/images/gb.svg" alt="">Global</button>
+                  <button class="content-btn region active"><img class="image-small right" src="assets/images/nig.svg" alt="">Nigeria</button>
+                  <button class="content-btn region"> <img class="image-small right" src="assets/images/ken.svg" alt=""> Kenya</button>
+
+              </div>
+            </div>
 
           </ul>
         </div>
@@ -99,6 +111,7 @@
       </nav>
     </section>
   </main>
-  
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
