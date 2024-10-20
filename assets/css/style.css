@@ -7,8 +7,18 @@ body {
   font-family: sans-serif;
   font-size: 14px;
   color: #2d3136;
-  background-color: rgb(16, 16, 42);
+  background-color: #031335;
   
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+button {
+  width: 100%;
+  border: 0px;
+  text-align: left;
+  background-color: transparent;
 }
 
 nav {
@@ -18,13 +28,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
-  /* border: 1px solid red; */
 }
 
 .navbar ul {
   list-style-type:none;
   padding: 0px 20px;
-  /* border: 1px solid blue; */
 }
 
 .navbar.left ul, .navbar.right ul{
@@ -88,3 +96,108 @@ a:hover {
   align-items: center;
   cursor: pointer;
 }
+
+
+/* Dropdown Button */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fafafa;
+  min-width: 220px;
+  padding: 16px;
+  margin-top: 10px;
+  transform: translateX(-32%);
+  border-radius: 16px;
+  z-index: 1;
+  /* border: 1px solid green; */
+  /* transition: 0.2s!important; */
+}
+
+.dropdown-content.large-content {
+  width: 50%;
+  min-width: 800px;
+  transform: translateX(-48%);
+}
+
+.dropdown-content.small-content {
+  display: none;
+  transform: translateX(-30%);
+}
+
+.dropdown-content a {
+  color: #2d2d2d;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown:hover .dropdown-content.small-content  {
+  display: block;
+}
+
+.content-box {
+  width: 100%;
+  margin: 10px;
+}
+
+.content-btn {
+  padding: 15px;
+  border-radius: 7px;
+  transition: 0.2s;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.content-btn:hover {
+  background-color:  #c4e9fd;
+  transition: 0.2s;
+}
+
+.content-btn.second {
+  display: flex;
+}
+
+.content-btn.second:hover {
+  color: #0349c6;
+  background-color: transparent;
+}
+
+.content-btn.second:hover .icon-bg {
+  transition: 0.3s;
+  color: #c4e9fd;
+  background-color: #0349c6;
+}
+
+.font-medium {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  color: #9aa9c0;
+  padding-top: 7px;
+  font-weight: 500;
+}
+
+.icon-bg {
+  background-color: #c4e9fd;
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
