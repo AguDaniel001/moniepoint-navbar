@@ -29,28 +29,29 @@
               <li class="dropbtn">
                 <a href="#" class="trans-bg-color">Products <i class="fa-solid fa-chevron-down"></i></a></i>
 
+              
                 <div class="dropdown-content large-content">
 
-                  <div class="content-box">
-                    <button class="content-btn">
+                  <div class="content-box tab">
+                    <button class="tablinks content-btn" onmouseover="openCity(event, 'Banking')">
                       <h4 class="font-medium">Banking</h4>
                       <h5>Business and personal accounts</h5>
                     </button>
-                    <button class="content-btn">
+                    <button class="tablinks content-btn" onmouseover="openCity(event, 'Credits')">
                       <h4 class="font-medium">Credit</h4>
                       <h5>Business and individual loans</h5>
                     </button>
-                    <button class="content-btn">
+                    <button class="tablinks content-btn" onmouseover="openCity(event, 'Payments')">
                       <h4 class="font-medium">Payments</h4>
                       <h5>Accept payments from anywhere</h5>
                     </button>
-                    <button class="content-btn">
+                    <button class="tablinks content-btn" onmouseover="openCity(event, 'Business')">
                       <h4 class="font-medium">Business Management</h4>
                       <h5>Easy business money Management & reports </h5>
                     </button>
                   </div>
 
-                  <div class="content-box">
+                  <div id="Banking" class="tabcontent content-box">
                     <a href="" class="content-btn second">
                       <span><i class="fa-regular fa-building icon-bg"></i></span>
                       <span>
@@ -68,6 +69,87 @@
                       </span>
                     </a>
                   </div>
+
+                  <div id="Credits" class="content-box tabcontent">
+                    <a href="" class="content-btn second">
+                      <span><i class="fa-regular fa-building icon-bg"></i></span>
+                      <span>
+                        <h4>Working Capital Loans</h4>
+                        <h5>Get a free business account to power your business</h5>
+                      </span>
+                    </a>
+
+                    <a href="" class="content-btn second">
+                      <span><i class="fa-regular fa-hashtag icon-bg"></i>
+                      </span>
+                      <span>
+                        <h4>Overdraft</h4>
+                        <h5>Dial *5573# for easy offline banking</h5>
+                      </span>
+                    </a>
+
+                    <a href="" class="content-btn second">
+                      <span><i class="fa-regular fa-hashtag icon-bg"></i>
+                      </span>
+                      <span>
+                        <h4>Salary Advance</h4>
+                        <h5>Dial *5573# for easy offline banking</h5>
+                      </span>
+                    </a>
+                  </div>
+
+                  <!-- PAYMENTS -->
+
+                  <div id="Payments" class="content-box tabcontent">
+                    <a href="" class="content-btn second">
+                      <span><i class="fa-regular fa-building icon-bg"></i></span>
+                      <span>
+                        <h4>POS Terminals</h4>
+                        <h5>Get a free business account to power your business</h5>
+                      </span>
+                    </a>
+
+                    <a href="" class="content-btn second">
+                      <span><i class="fa-regular fa-hashtag icon-bg"></i>
+                      </span>
+                      <span>
+                        <h4>Web payments (Monthly)</h4>
+                        <h5>Dial *5573# for easy offline banking</h5>
+                      </span>
+                    </a>
+                  </div>
+
+                  <!-- BUSINESS -->
+
+                  <div id="Business" class="content-box tabcontent">
+                    <a href="" class="content-btn second">
+                      <span><i class="fa-regular fa-building icon-bg"></i></span>
+                      <span>
+                        <h4>Expense cards</h4>
+                        <h5>Get a free business account to power your business</h5>
+                      </span>
+                    </a>
+
+                    <a href="" class="content-btn second">
+                      <span><i class="fa-regular fa-hashtag icon-bg"></i>
+                      </span>
+                      <span>
+                        <h4>CAC Registration</h4>
+                        <h5>Dial *5573# for easy offline banking</h5>
+                      </span>
+                    </a>
+
+                    <a href="" class="content-btn second">
+                      <span><i class="fa-regular fa-hashtag icon-bg"></i>
+                      </span>
+                      <span>
+                        <h4>Bookings</h4>
+                        <h5>Dial *5573# for easy offline banking</h5>
+                      </span>
+                    </a>
+                  </div>
+
+                
 
                 </div>
 

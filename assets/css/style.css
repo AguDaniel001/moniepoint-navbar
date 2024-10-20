@@ -136,9 +136,12 @@ a:hover {
   display: block;
 }
 
+
 .dropdown:hover .dropdown-content {
   display: flex;
 }
+
+
 
 .dropdown:hover .dropdown-content.small-content  {
   display: block;
